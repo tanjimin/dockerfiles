@@ -2,7 +2,7 @@
 cp ../requirements.txt .
 
 # Build Docker
-sudo docker build -t ml:test .
+sudo docker build -t ml:default .
 rm requirements.txt
 
 # Run Docker
